@@ -1,0 +1,33 @@
+# UI Optimization
+debug.sf.hw=1
+persist.sys.ui.hw=1
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.hwui.texture_cache_size=88
+ro.hwui.layer_cache_size=58
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.path_cache_size=32
+ro.hwui.gradient_cache_size=1
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.fbo_cache_size=16
+
+# RAM Management
+ro.sys.fw.bg_apps_limit=32
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=128m
+dalvik.vm.heapsize=256m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
+
+# Performance Tweaks for Gaming
+ro.config.vc_call_vol_steps=15
+ro.game.mode=1
+persist.sys.purgeable_assets=1
+persist.sys.use_16bpp_alpha=1
+
+# Battery Life Optimization
+pm.sleep_mode=1
+ro.ril.power.collapse=1
+ro.config.hw_power_saving=1
+wifi.supplicant_scan_interval=180
+ro.config.enable.hw_accel=true
